@@ -1,0 +1,33 @@
+{
+  "name": "titan-test",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "dev": "nodemon",
+    "build": "tsc",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@types/express": "^5.0.5",
+    "@types/pg": "^8.15.6",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
+    "eslint": "^9.39.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "typeorm": "^0.3.27",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
